@@ -14,7 +14,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "9ztBhFNfQU7AQj-Y0yMxIA14OyiOke3F6vJoJW-jfs1NM6zIeR6pqSWmz6XSbNKALHqvZg_rtHxMnUlWbLhzAw",
+							"value": "70ISALzWdmIpnrUqwpIUv7DtTs7L3FyiyoKCvehRoXp9fwSre4VrbEW2LLwOcKa3rC5ekxpQCbugHJwCzKBZ7A",
 							"type": "string"
 						}
 					]
@@ -23,7 +23,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"company\": \"Company A\",\r\n  \"short_description\": \"Phone headset not detected\"\r\n}\r\n",
+					"raw": "{\r\n    \"short_description\": \"Sending request with domain A user. Testing Company in indicent table\"\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -102,6 +102,106 @@
 			"response": []
 		},
 		{
+			"name": "Request oAuth access_token for ExternalPlatFormUser1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "809a0de973eb4750b254bba2f1b5862e",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "gN&*EXX`q|",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "ExternalPlatFormUser1",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "pfAMiZp<.(SW3XgW7v,As^:Nf^Qk",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dev190528.service-now.com/oauth_token.do",
+					"protocol": "https",
+					"host": [
+						"dev190528",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"oauth_token.do"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request oAuth access_token for abby.pomrey",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "809a0de973eb4750b254bba2f1b5862e",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "gN&*EXX`q|",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "abby.pomrey",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "6[l{kmtdTCZlWy-@>agpWV[RyJYaq)*sE]%-Yfa,@?h((Vb:-geasWgM*_rW0Z*wQU9w*?JMfkgi$[#J8lN447l@K",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dev190528.service-now.com/oauth_token.do",
+					"protocol": "https",
+					"host": [
+						"dev190528",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"oauth_token.do"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Post Incident DomainB",
 			"request": {
 				"auth": {
@@ -109,7 +209,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "9ztBhFNfQU7AQj-Y0yMxIA14OyiOke3F6vJoJW-jfs1NM6zIeR6pqSWmz6XSbNKALHqvZg_rtHxMnUlWbLhzAw",
+							"value": "axlrX710c0VJamcxDwY-RVRluysz2X7FtMEbmM3f9Jr12Sl20kJdWGmDqp2MfoH0qgBZbOUWVni0iKkXib62FA",
 							"type": "string"
 						}
 					]
@@ -118,7 +218,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"company\": \"CompanyB\",\r\n  \"short_description\": \"Application install failed\"\r\n}\r\n",
+					"raw": "{\r\n    \"short_description\": \"Sending request with domain B user. Testing Company in indicent table\"\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -138,6 +238,56 @@
 						"x_1778869_domain_0",
 						"remote_incidents",
 						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request oAuth access_token for bunny.bollard",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "809a0de973eb4750b254bba2f1b5862e",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "gN&*EXX`q|",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "bunny.bollard",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": ".Qtr.G$M+egFL^[Y][1<=.51-G8a3o%b077e(jhqf39qG{sPrP{3E_K%QO^J0IQ%tqUzE%Z{>",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dev190528.service-now.com/oauth_token.do",
+					"protocol": "https",
+					"host": [
+						"dev190528",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"oauth_token.do"
 					]
 				}
 			},
