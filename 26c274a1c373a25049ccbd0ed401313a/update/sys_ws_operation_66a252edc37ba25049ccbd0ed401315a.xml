@@ -11,14 +11,46 @@
     var body = request.body.data;
     var companyName = body.company;
     var shortDesc = body.short_description;
-
+    //gs.info(gs.user);
+    var userSysId = gs.getUserID();
     var result = {};
 
     try {
+
+        // looup user
+        var grUser = new GlideRecord('sys_user');
+        grUser.addQuery('sys_id', userSysId.toString());
+        grUser.query();
+        if (grUser.next()) {
+            var domain = grUser.sys_domain;
+            // Create new incident
+            var grIncident = new GlideRecord('incident');
+            gs.info('Could read the Incident with this user ' + companyName);
+            grIncident.initialize();
+            grIncident.short_description = shortDesc;
+            grIncident.caller_id = userSysId;
+			gs.info('COMPANY: ' + grUser.company.getDisplayValue());
+            grIncident.company = grUser.company;
+            grIncident.sys_domain = grUser.sys_domain; // domain reference comes from core_company
+            grIncident.insert();
+            gs.info('Can insert incident ');
+
+            let correlationId = grIncident.number;
+            gs.info('Domain Indcident API: inserted incident number: ' + correlationId);
+            result.status = "success";
+            result.incident_sys_id = correlationId;
+            //result.company = companyName;
+            result.domain = grUser.sys_domain.getDisplayValue();
+        } else {
+            response.setStatus(404);
+            result.status = "error";
+            result.message = "User not found: " + companyName;
+        }
+        /*
         // Lookup company
         var grCompany = new GlideRecord('core_company');
         grCompany.addQuery('name', companyName);
-		gs.info('Before Query ' + companyName);
+        gs.info('Before Query ' + companyName);
         grCompany.query();
         gs.info('After Query: ' + companyName);
         if (grCompany.next()) {
@@ -41,11 +73,12 @@
             result.company = companyName;
             result.domain = grCompany.sys_domain.getDisplayValue();
 
+
         } else {
             response.setStatus(404);
             result.status = "error";
             result.message = "Company not found: " + companyName;
-        }
+        }*/
     } catch (e) {
         response.setStatus(500);
         result.status = "error";
@@ -69,14 +102,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-05 09:23:29</sys_created_on>
         <sys_id>66a252edc37ba25049ccbd0ed401315a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Create</sys_name>
         <sys_package display_value="Domain Aware Incident Integration" source="x_1778869_domain_0">26c274a1c373a25049ccbd0ed401313a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</sys_scope>
         <sys_update_name>sys_ws_operation_66a252edc37ba25049ccbd0ed401315a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-05 10:11:32</sys_updated_on>
+        <sys_updated_on>2025-09-05 23:30:59</sys_updated_on>
         <web_service_definition display_value="Remote Incidents">3c8256adc37ba25049ccbd0ed4013190</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>
