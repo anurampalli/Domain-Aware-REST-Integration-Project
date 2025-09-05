@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="9a4330e1c373a25049ccbd0ed40131b6" sys_domain="global" table="x_1778869_domain_0_domain_mapping" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-05 03:21:28</sys_created_on>
+            <sys_id>8d41cd21c3f3a25049ccbd0ed401313b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1778869_domain_0_domain_mapping" sys_domain="global" view="Default view">9a4330e1c373a25049ccbd0ed40131b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-05 03:21:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-05 03:21:28</sys_created_on>
+            <sys_id>8941cd21c3f3a25049ccbd0ed401313c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1778869_domain_0_domain_mapping" sys_domain="global" view="Default view">9a4330e1c373a25049ccbd0ed40131b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-05 03:21:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>domain</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-05 03:21:28</sys_created_on>
+            <sys_id>0141cd21c3f3a25049ccbd0ed401313d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1778869_domain_0_domain_mapping" sys_domain="global" view="Default view">9a4330e1c373a25049ccbd0ed40131b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-05 03:21:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1778869_domain_0_domain_mapping</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-05 02:20:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a4330e1c373a25049ccbd0ed40131b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1778869_domain_0_domain_mapping</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Domain Aware Incident Integration" source="x_1778869_domain_0">26c274a1c373a25049ccbd0ed401313a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</sys_scope>
+            <sys_update_name>sys_ui_section_9a4330e1c373a25049ccbd0ed40131b6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-05 02:20:23</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</application>
+        <file_path/>
+        <instance_id>8a8dfce4db4e31d4199b17291396197d</instance_id>
+        <instance_name>dev190528</instance_name>
+        <name>sys_ui_section_9a4330e1c373a25049ccbd0ed40131b6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="9a4330e1c373a25049ccbd0ed40131b6" sys_domain="global" table="x_1778869_domain_0_domain_mapping" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-05 03:21:28</sys_created_on><sys_id>8d41cd21c3f3a25049ccbd0ed401313b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1778869_domain_0_domain_mapping" sys_domain="global" view="Default view">9a4330e1c373a25049ccbd0ed40131b6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-05 03:21:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>company_name</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-05 03:21:28</sys_created_on><sys_id>8941cd21c3f3a25049ccbd0ed401313c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1778869_domain_0_domain_mapping" sys_domain="global" view="Default view">9a4330e1c373a25049ccbd0ed40131b6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-05 03:21:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>domain</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-05 03:21:28</sys_created_on><sys_id>0141cd21c3f3a25049ccbd0ed401313d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1778869_domain_0_domain_mapping" sys_domain="global" view="Default view">9a4330e1c373a25049ccbd0ed40131b6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-05 03:21:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1778869_domain_0_domain_mapping</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-05 02:20:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9a4330e1c373a25049ccbd0ed40131b6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1778869_domain_0_domain_mapping</sys_name><sys_overrides/><sys_package display_value="Domain Aware Incident Integration" source="x_1778869_domain_0">26c274a1c373a25049ccbd0ed401313a</sys_package><sys_policy/><sys_scope display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</sys_scope><sys_update_name>sys_ui_section_9a4330e1c373a25049ccbd0ed40131b6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-05 02:20:23</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1353557657</payload_hash>
+        <record_name>Domain Mapping</record_name>
+        <reverted_from/>
+        <source>a6c274a1c373a25049ccbd0ed401313e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 03:21:28</sys_created_on>
+        <sys_id>c141cd21c3f3a25049ccbd0ed401313f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19917e4b6060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 03:21:28</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>8941cd21a7f3a250b37e5d709fa79c3e</update_guid>
+        <update_guid_history>8941cd21a7f3a250b37e5d709fa79c3e:-1353557657,1e4330e1f473a250ba555c629a2acfbc:978579409,9a4330e1ad73a250b5d1c09a60ba8fba:1794943242</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 08:34:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3a9c8bb365cb4717aff717af246b7391</sys_id>
+        <sys_metadata>9a4330e1c373a25049ccbd0ed40131b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1778869_domain_0_domain_mapping</sys_name>
+        <sys_package display_value="Domain Aware Incident Integration" source="x_1778869_domain_0">26c274a1c373a25049ccbd0ed401313a</sys_package>
+        <sys_parent display_value="">ad4330e1c373a25049ccbd0ed4013107</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</sys_scope>
+        <sys_scope_delete display_value="">02e941b0bbd84ccc802f83b25ab61b10</sys_scope_delete>
+        <sys_update_name>sys_ui_section_9a4330e1c373a25049ccbd0ed40131b6</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_9a4330e1c373a25049ccbd0ed40131b6">c141cd21c3f3a25049ccbd0ed401313f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 08:34:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="DELETE">
+        <active>true</active>
+        <base_uri>/api/x_1778869_domain_0/domain_incident_api</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>ad7d42a5c37ba25049ccbd0ed401310d</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>Domain Incident API</name>
+        <namespace>x_1778869_domain_0</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>domain_incident_api</service_id>
+        <short_description>Scripted REST API (for Integration) to create incidents in appropriate domains. </short_description>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 04:16:16</sys_created_on>
+        <sys_id>e9bdc5e1c337a25049ccbd0ed40131bf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Domain Incident API</sys_name>
+        <sys_package display_value="Domain Aware Incident Integration" source="x_1778869_domain_0">26c274a1c373a25049ccbd0ed401313a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</sys_scope>
+        <sys_update_name>sys_ws_definition_e9bdc5e1c337a25049ccbd0ed40131bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 09:04:06</sys_updated_on>
+    </sys_ws_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</application>
+        <file_path/>
+        <instance_id>8a8dfce4db4e31d4199b17291396197d</instance_id>
+        <instance_name>dev190528</instance_name>
+        <name>sys_ws_definition_e9bdc5e1c337a25049ccbd0ed40131bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/x_1778869_domain_0/domain_incident_api</base_uri><consumes>application/json,application/xml,text/xml</consumes><consumes_customized>false</consumes_customized><default_version>No active default version</default_version><doc_link/><enforce_acl>ad7d42a5c37ba25049ccbd0ed401310d</enforce_acl><is_versioned>false</is_versioned><name>Domain Incident API</name><namespace>x_1778869_domain_0</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>domain_incident_api</service_id><short_description>Scripted REST API (for Integration) to create incidents in appropriate domains. </short_description><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-05 04:16:16</sys_created_on><sys_id>e9bdc5e1c337a25049ccbd0ed40131bf</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Domain Incident API</sys_name><sys_package display_value="Domain Aware Incident Integration" source="x_1778869_domain_0">26c274a1c373a25049ccbd0ed401313a</sys_package><sys_policy/><sys_scope display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</sys_scope><sys_update_name>sys_ws_definition_e9bdc5e1c337a25049ccbd0ed40131bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-05 09:04:06</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+        <payload_hash>-2059081680</payload_hash>
+        <record_name>Domain Incident API</record_name>
+        <reverted_from/>
+        <source>a6c274a1c373a25049ccbd0ed401313e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 09:04:06</sys_created_on>
+        <sys_id>84bfce69c37ba25049ccbd0ed40131f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199191e67040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 09:04:06</sys_updated_on>
+        <type>Scripted REST API</type>
+        <update_guid>4cbfce69187ba250ef3ffab18e3ba2f4</update_guid>
+        <update_guid_history>4cbfce69187ba250ef3ffab18e3ba2f4:-2059081680,71be05a12b37a2500502e5c68a24b1df:-546816395,3bcd45a1ed37a2500fcf4099c2d95f36:-630693649</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 09:14:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_definition">sys_ws_definition</sys_db_object>
+        <sys_id>60d08d35e1554c05b229687c1e369229</sys_id>
+        <sys_metadata>e9bdc5e1c337a25049ccbd0ed40131bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Incident API</sys_name>
+        <sys_package display_value="Domain Aware Incident Integration" source="x_1778869_domain_0">26c274a1c373a25049ccbd0ed401313a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</sys_scope>
+        <sys_scope_delete display_value="">02e941b0bbd84ccc802f83b25ab61b10</sys_scope_delete>
+        <sys_update_name>sys_ws_definition_e9bdc5e1c337a25049ccbd0ed40131bf</sys_update_name>
+        <sys_update_version display_value="sys_ws_definition_e9bdc5e1c337a25049ccbd0ed40131bf">84bfce69c37ba25049ccbd0ed40131f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 09:14:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

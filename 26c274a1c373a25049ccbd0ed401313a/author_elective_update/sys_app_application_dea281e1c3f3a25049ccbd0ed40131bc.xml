@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 03:27:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dea281e1c3f3a25049ccbd0ed40131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Company Domain Mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Domain Aware Incident Integration" source="x_1778869_domain_0">26c274a1c373a25049ccbd0ed401313a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</sys_scope>
+        <sys_update_name>sys_app_application_dea281e1c3f3a25049ccbd0ed40131bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 03:27:40</sys_updated_on>
+        <title>Company Domain Mapping</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</application>
+        <file_path/>
+        <instance_id>8a8dfce4db4e31d4199b17291396197d</instance_id>
+        <instance_name>dev190528</instance_name>
+        <name>sys_app_application_dea281e1c3f3a25049ccbd0ed40131bc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles/><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-05 03:27:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dea281e1c3f3a25049ccbd0ed40131bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Company Domain Mapping</sys_name><sys_overrides/><sys_package display_value="Domain Aware Incident Integration" source="x_1778869_domain_0">26c274a1c373a25049ccbd0ed401313a</sys_package><sys_policy/><sys_scope display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</sys_scope><sys_update_name>sys_app_application_dea281e1c3f3a25049ccbd0ed40131bc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-05 03:27:40</sys_updated_on><title>Company Domain Mapping</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-571887628</payload_hash>
+        <record_name>Company Domain Mapping</record_name>
+        <reverted_from/>
+        <source>a6c274a1c373a25049ccbd0ed401313e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 03:27:40</sys_created_on>
+        <sys_id>b3a2c1e1c3f3a25049ccbd0ed4013139</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19917ea63640000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 03:27:40</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>b7a2c1e135f3a25010d59af829cdef38</update_guid>
+        <update_guid_history>b7a2c1e135f3a25010d59af829cdef38:-571887628</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Company Domain Mapping">c229ca61c37ba25049ccbd0ed4013107</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 08:35:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>4c813cc9c597420aaa6dbf7dc808a321</sys_id>
+        <sys_metadata>dea281e1c3f3a25049ccbd0ed40131bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Company Domain Mapping</sys_name>
+        <sys_package display_value="Domain Aware Incident Integration" source="x_1778869_domain_0">26c274a1c373a25049ccbd0ed401313a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</sys_scope>
+        <sys_scope_delete display_value="">02e941b0bbd84ccc802f83b25ab61b10</sys_scope_delete>
+        <sys_update_name>sys_app_application_dea281e1c3f3a25049ccbd0ed40131bc</sys_update_name>
+        <sys_update_version display_value="sys_app_application_dea281e1c3f3a25049ccbd0ed40131bc">b3a2c1e1c3f3a25049ccbd0ed4013139</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 08:35:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

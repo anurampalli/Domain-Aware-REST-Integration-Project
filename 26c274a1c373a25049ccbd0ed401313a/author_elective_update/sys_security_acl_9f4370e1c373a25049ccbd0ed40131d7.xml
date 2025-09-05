@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1778869_domain_0_domain_mapping</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 02:20:27</sys_created_on>
+        <sys_id>9f4370e1c373a25049ccbd0ed40131d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1778869_domain_0_domain_mapping</sys_name>
+        <sys_package display_value="Domain Aware Incident Integration" source="x_1778869_domain_0">26c274a1c373a25049ccbd0ed401313a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</sys_scope>
+        <sys_update_name>sys_security_acl_9f4370e1c373a25049ccbd0ed40131d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 02:20:27</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</application>
+        <file_path/>
+        <instance_id>8a8dfce4db4e31d4199b17291396197d</instance_id>
+        <instance_name>dev190528</instance_name>
+        <name>sys_security_acl_9f4370e1c373a25049ccbd0ed40131d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>x_1778869_domain_0_domain_mapping</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-05 02:20:27</sys_created_on><sys_id>9f4370e1c373a25049ccbd0ed40131d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1778869_domain_0_domain_mapping</sys_name><sys_package display_value="Domain Aware Incident Integration" source="x_1778869_domain_0">26c274a1c373a25049ccbd0ed401313a</sys_package><sys_policy/><sys_scope display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</sys_scope><sys_update_name>sys_security_acl_9f4370e1c373a25049ccbd0ed40131d7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-05 02:20:27</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>2123134441</payload_hash>
+        <record_name>x_1778869_domain_0_domain_mapping</record_name>
+        <reverted_from/>
+        <source>a6c274a1c373a25049ccbd0ed401313e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 02:20:27</sys_created_on>
+        <sys_id>1b4370e1c373a25049ccbd0ed40131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19917acd8cf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 02:20:27</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>1f4370e14f73a2503ce3cd98f4eb93d9</update_guid>
+        <update_guid_history>1f4370e14f73a2503ce3cd98f4eb93d9:2123134441</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 08:34:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3b19655440db469c987e775b7bd0c019</sys_id>
+        <sys_metadata>9f4370e1c373a25049ccbd0ed40131d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1778869_domain_0_domain_mapping</sys_name>
+        <sys_package display_value="Domain Aware Incident Integration" source="x_1778869_domain_0">26c274a1c373a25049ccbd0ed401313a</sys_package>
+        <sys_parent display_value="">a94330e1c373a25049ccbd0ed4013116</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</sys_scope>
+        <sys_scope_delete display_value="">02e941b0bbd84ccc802f83b25ab61b10</sys_scope_delete>
+        <sys_update_name>sys_security_acl_9f4370e1c373a25049ccbd0ed40131d7</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_9f4370e1c373a25049ccbd0ed40131d7">1b4370e1c373a25049ccbd0ed40131da</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 08:34:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

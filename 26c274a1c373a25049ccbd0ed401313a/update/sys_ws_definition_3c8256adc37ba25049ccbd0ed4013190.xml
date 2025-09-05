@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_1778869_domain_0/remote_incidents</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>ad7d42a5c37ba25049ccbd0ed401310d</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>Remote Incidents</name>
+        <namespace>x_1778869_domain_0</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>remote_incidents</service_id>
+        <short_description>Scoped Scripted REST API to domain seperate remote incidents</short_description>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 09:16:45</sys_created_on>
+        <sys_id>3c8256adc37ba25049ccbd0ed4013190</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Remote Incidents</sys_name>
+        <sys_package display_value="Domain Aware Incident Integration" source="x_1778869_domain_0">26c274a1c373a25049ccbd0ed401313a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Aware Incident Integration">26c274a1c373a25049ccbd0ed401313a</sys_scope>
+        <sys_update_name>sys_ws_definition_3c8256adc37ba25049ccbd0ed4013190</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 10:25:46</sys_updated_on>
+    </sys_ws_definition>
+</record_update>
