@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "27ba0994-a4b1-47de-a0d2-d36682703c01",
+		"name": "Integration with Domain Seperation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41316953"
+	},
+	"item": [
+		{
+			"name": "Post Incident DomainA",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "9ztBhFNfQU7AQj-Y0yMxIA14OyiOke3F6vJoJW-jfs1NM6zIeR6pqSWmz6XSbNKALHqvZg_rtHxMnUlWbLhzAw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"company\": \"Company A\",\r\n  \"short_description\": \"Phone headset not detected\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev190528.service-now.com/api/x_1778869_domain_0/remote_incidents/create",
+					"protocol": "https",
+					"host": [
+						"dev190528",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"x_1778869_domain_0",
+						"remote_incidents",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request oAuth access_token for admin",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "809a0de973eb4750b254bba2f1b5862e",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "gN&*EXX`q|",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "I=hXb7ni!L5A",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dev190528.service-now.com/oauth_token.do",
+					"protocol": "https",
+					"host": [
+						"dev190528",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"oauth_token.do"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Incident DomainB",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "9ztBhFNfQU7AQj-Y0yMxIA14OyiOke3F6vJoJW-jfs1NM6zIeR6pqSWmz6XSbNKALHqvZg_rtHxMnUlWbLhzAw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"company\": \"CompanyB\",\r\n  \"short_description\": \"Application install failed\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev190528.service-now.com/api/x_1778869_domain_0/remote_incidents/create",
+					"protocol": "https",
+					"host": [
+						"dev190528",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"x_1778869_domain_0",
+						"remote_incidents",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
