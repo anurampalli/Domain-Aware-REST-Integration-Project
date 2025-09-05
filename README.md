@@ -4,7 +4,7 @@
 ## Overview
 
 This project demonstrates how to build a **domain-aware integration** in ServiceNow.
-It accepts incidents from external systems via a **Scripted REST API**, then routes them to the correct **domain** based on a company-to-domain mapping.
+It accepts incidents from external systems via a **Scripted REST API**, then routes them to the correct **domain** based on the authenticated user.
 
 This is useful for **multi-tenant ServiceNow implementations** (e.g., Managed Service Providers), where each customer must have isolated data using **Domain Separation**.
 ---
@@ -12,9 +12,8 @@ This is useful for **multi-tenant ServiceNow implementations** (e.g., Managed Se
 ## Features
 
 - Scoped application (`x_yourname_domain_integration`)
-- Custom **Domain Mapping Table** (`u_domain_mapping`)
 - **Scripted REST API** (`POST /incident`)
-- Auto-assigns incidents to correct `sys_domain`
+- Auto-assigns incidents to correct `sys_domain` based on the **user** executing the webservice
 - Tested with **Postman collection** for easy simulation
 - Works with **Domain Separation plugin** enabled
 
@@ -22,7 +21,7 @@ This is useful for **multi-tenant ServiceNow implementations** (e.g., Managed Se
 
 ## Architecture
 
-**External System** (Postman / API client) → **ServiceNow Scripted REST API** → **Domain Mapping Table** → **Incident (sys_domain assigned)**
+**External System** (Postman / API client) → **ServiceNow Scripted REST API** → **Look up User** → **Incident (sys_domain assigned)**
 
 ---
 
@@ -68,7 +67,6 @@ Authentication:
 
 ```json
 {
-  "company": "CompanyA",
   "short_description": "Server CPU usage high"
 }
 ```
@@ -77,8 +75,7 @@ Authentication:
 
 ```json
 {
-  "company": "CompanyB",
-  "short_description": "Email outage in region"
+ "short_description": "Email outage in region"
 }
 ```
 
@@ -104,13 +101,15 @@ Authentication:
 - Domain Table  
   ![Domain Table](screenshots/domain.png)
 - Postman Request  
-  ![Postman Request](postman_collection/postman_request.png)
+  ![Postman Request](postman_collection/updated_postman_request_and_response.png)
 - ACL  
   ![ACL](acl/Scoped_Integration_Users_1.png)
 - ACL  
   ![ACL](acl/Scoped_Integration_Users_2.png)
-- Incident Table
-  ![Incident Table](screenshots/incident_table.png)
+- Create Users
+  ![Domain Specific Users](screenshots/create_users_for_each_domain.png)
+- Domain Separation Incident Table
+  ![Incident Table](screenshots/user_based_domain_seperation.png)
 - **I did it! Domain Seperation, Integration, with OAuth too!**
   ![I did it!](i_did_it.jpg)
 ---
