@@ -46,7 +46,7 @@ This is useful for **multi-tenant ServiceNow implementations** (e.g., Managed Se
 Endpoint:
 
 ```
-POST https://<your-instance>.service-now.com/api/x_yourname_domain_integration/incident
+POST https://<your-instance>.service-now.com/api/x_1778869_domain_0/remote_incidents/create
 ```
 
 Headers:
@@ -58,7 +58,7 @@ Accept: application/json
 
 Authentication:
 
-- Basic Auth (ServiceNow username/password)
+- OAuth 2.0
 
 ---
 
@@ -69,8 +69,7 @@ Authentication:
 ```json
 {
   "company": "CompanyA",
-  "short_description": "Server CPU usage high",
-  "urgency": "1"
+  "short_description": "Server CPU usage high"
 }
 ```
 
@@ -79,8 +78,7 @@ Authentication:
 ```json
 {
   "company": "CompanyB",
-  "short_description": "Email outage in region",
-  "urgency": "2"
+  "short_description": "Email outage in region"
 }
 ```
 
@@ -90,9 +88,12 @@ Authentication:
 
 ```json
 {
-  "result": "Incident created",
-  "sys_id": "d84f3b65c611228701e9aebcf3cc88a1",
-  "domain": "DomainA"
+    "result": {
+        "status": "success",
+        "incident_sys_id": "INC0012271",
+        "company": "CompanyB",
+        "domain": "TOP/DomainB"
+    }
 }
 ```
 
@@ -100,12 +101,18 @@ Authentication:
 
 ## Screenshots
 
-- [ ] TODO: Screenshot of **Domain Mapping Table**
-- [ ] TODO: Screenshot of **Postman Request**
-- [ ] TODO: Screenshot of **Postman Response**
-- [ ] TODO: Screenshot of **Incident in DomainA**
-- [ ] TODO: Screenshot of **Incident in DomainB**
-
+- Domain Table  
+  ![Domain Table](screenshots/domain.png)
+- Postman Request  
+  ![Postman Request](postman_collection/postman_request.png)
+- ACL  
+  ![ACL](acl/Scoped_Integration_Users_1.png)
+- ACL  
+  ![ACL](acl/Scoped_Integration_Users_2.png)
+- Incident Table
+  ![Incident Table](screenshots/incident_table.png)
+- **I did it! Domain Seperation, Integration, with OAuth too!**
+  ![I did it!](i_did_it.jpg)
 ---
 
 ## Learning Outcomes
