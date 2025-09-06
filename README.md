@@ -34,8 +34,8 @@ This is useful for **multi-tenant ServiceNow implementations** (e.g., Managed Se
 
 ### 2. Configure Domain Mapping
 
-- Navigate to **Domain Mappings** module.
-- Add records:
+- Add records in core_compqny table (CompanyA, CompanyB).
+- Add records in domain table
 
   - CompanyA → DomainA
   - CompanyB → DomainB
@@ -81,13 +81,13 @@ Authentication:
 
 ---
 
-## Example Responses
+## Example Response
 
 ```json
 {
     "result": {
         "status": "success",
-        "incident_sys_id": "INC0012271",
+        "incident_number": "INC0012271",
         "company": "CompanyB",
         "domain": "TOP/DomainB"
     }
@@ -118,7 +118,7 @@ Authentication:
 
 - How to integrate ServiceNow with external systems using REST APIs
 - How to enforce **domain separation** in integrations
-- How to simulate **multi-tenant incident management** in a single instance
+- How to simulate **multi-tenant incident management** in a single instance based on authenticated user
 - How to package ServiceNow work into a **scoped app** for reusability
 
 ---
@@ -126,7 +126,6 @@ Authentication:
 ## Next Steps
 
 - Extend app to support **Problem/Change** records
-- Add **OAuth 2.0 authentication** for API
 - Create **ATF (Automated Test Framework)** tests for regression
 
 ---
