@@ -81,7 +81,7 @@
 						},
 						{
 							"key": "password",
-							"value": "I=hXb7ni!L5A",
+							"value": "",
 							"type": "text"
 						}
 					]
@@ -131,7 +131,7 @@
 						},
 						{
 							"key": "password",
-							"value": "pfAMiZp<.(SW3XgW7v,As^:Nf^Qk",
+							"value": "",
 							"type": "text"
 						}
 					]
@@ -181,7 +181,7 @@
 						},
 						{
 							"key": "password",
-							"value": "6[l{kmtdTCZlWy-@>agpWV[RyJYaq)*sE]%-Yfa,@?h((Vb:-geasWgM*_rW0Z*wQU9w*?JMfkgi$[#J8lN447l@K",
+							"value": "",
 							"type": "text"
 						}
 					]
@@ -273,7 +273,57 @@
 						},
 						{
 							"key": "password",
-							"value": ".Qtr.G$M+egFL^[Y][1<=.51-G8a3o%b077e(jhqf39qG{sPrP{3E_K%QO^J0IQ%tqUzE%Z{>",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dev190528.service-now.com/oauth_token.do",
+					"protocol": "https",
+					"host": [
+						"dev190528",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"oauth_token.do"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request oAuth access_token for external.restuser2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "809a0de973eb4750b254bba2f1b5862e",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "gN&*EXX`q|",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "external.restuser2",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "",
 							"type": "text"
 						}
 					]
