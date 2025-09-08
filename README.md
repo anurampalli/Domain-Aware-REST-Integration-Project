@@ -29,7 +29,7 @@ This is useful for **multi-tenant ServiceNow implementations** (e.g., Managed Se
 
 ### 1. Install Scoped App
 
-1. Clone repo or import update set into your PDI.
+1. Clone repo or import update set into your PDI. This is the repo to clone: https://github.com/anurampalli/Domain-Aware-Incident-Integration.git
 2. Ensure **Domain Support – Domain Extensions** plugin is active.
 
 ### 2. Configure Domain Mapping
