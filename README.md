@@ -114,6 +114,21 @@ Authentication:
   ![I did it!](i_did_it.jpg)
 ---
 
+
+## Errata (Correction)
+
+> **Update:** The earlier documentation suggested that the request payload included a `company` field used to determine the incident’s domain.  
+>  
+> **Correction:** The **company is *not* part of the request body or request object** in this implementation.  
+>  
+> The **domain assignment** is handled automatically based on the **authenticated user** executing the REST API call.  
+>  
+> When an external system authenticates via **OAuth 2.0** (or another supported mechanism), ServiceNow identifies the calling user and inserts the new **Incident** record based on that user’s associated **`sys_domain`**.  
+>  
+> This approach eliminates the need for external systems to specify a company in the payload, reduces the risk of cross-domain data exposure, and ensures compliance with ServiceNow’s **Domain Separation** model.
+
+---
+
 ## Learning Outcomes
 
 - How to integrate ServiceNow with external systems using REST APIs
